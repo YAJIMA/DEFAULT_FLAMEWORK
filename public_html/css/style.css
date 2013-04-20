@@ -1,0 +1,104 @@
+@charset "UTF-8";
+/* CSS Document */
+
+header {
+	background-color: #FF3000;
+	color: #FFFFFF;
+	padding: 10px auto;
+}
+header h1 {
+	margin: 0;
+}
+
+.container {
+	width: 100%;
+	overflow: hidden;
+	min-width: 600px;
+}
+aside {
+	float: left;
+	width: 220px;
+	margin: 0;
+	padding: 0 10px;
+	font-size: 80%;
+}
+
+article {
+	margin-left: 250px;
+}
+
+footer {
+	clear: both;
+	border-top: 3px solid #FF3000;
+	padding: 10px auto;
+}
+
+.left { text-align: left; }
+.right { text-align: right; }
+.center { text-align: center; }
+
+.paging {
+	list-style: none;
+}
+.paging li {
+	display: inline;
+	padding-right: 6px;
+}
+
+.keywordlist {
+	list-style: none;
+	padding-left: 0;
+}
+.keywordlist li {
+	margin-bottom: 10px;
+}
+.keywordlist li .small {
+	font-size: 80%;
+}
+
+.datalist {
+	list-style: none;
+}
+.datalist li {
+	display: block;
+	position: relative;
+	padding: 8px;
+	font-size: x-small;
+}
+.datalist .rank {
+	font-weight: bold;
+	color: #666;
+}
+.datalist .words {
+	color: #069;
+}
+.datalist .url {
+	color: #390;
+}
+.datalist .name {
+	font-weight: bold;
+	color: #333;
+}
+
+.downloadlist {
+	list-style: none;
+	padding-left: 0;
+}
+.downloadlist li {
+	margin-bottom: 10px;
+}
+
+.listTbl {
+	border-collapse: collapse;
+	border: 1px solid #E5E5E5;
+}
+.listTbl th {
+	padding: 4px;
+	border: 1px solid #E5E5E5;
+	font-size: 80%;
+	font-weight: 700;
+}
+.listTbl td {
+	padding: 4px;
+	border: 1px solid #E5E5E5;
+}
